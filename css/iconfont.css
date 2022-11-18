@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icons.eot?rhp6hm");
+  src: url("../fonts/icons.eot?rhp6hm#iefix") format("embedded-opentype"),
+    url("../fonts/icons.ttf?rhp6hm") format("truetype"),
+    url("../fonts/icons.woff?rhp6hm") format("woff"),
+    url("../fonts/icons.svg?rhp6hm#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"],
+[class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-contact_mail:before {
+  content: "\e900";
+}
+._icon-contact_message:before {
+  content: "\e901";
+}
+._icon-contact_phone:before {
+  content: "\e902";
+}
+._icon-contact_point:before {
+  content: "\e903";
+}
+._icon-Cup_Prize:before {
+  content: "\e904";
+}
+._icon-icon_flag:before {
+  content: "\e905";
+}
+._icon-icon_pilot:before {
+  content: "\e906";
+}
+._icon-icon_track:before {
+  content: "\e907";
+}
+._icon-social_facebook:before {
+  content: "\e908";
+}
+._icon-social_instagram:before {
+  content: "\e909";
+}
+._icon-social_vk:before {
+  content: "\e90a";
+}
+._icon-social_youtube:before {
+  content: "\e90b";
+}
